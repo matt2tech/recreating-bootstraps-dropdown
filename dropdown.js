@@ -1,3 +1,3 @@
-function myFunction (x) {
-    document.querySelector(x).classList.toggle('show');
+function myFunction () {
+    var x = document.querySelectorAll('.dropdown');
 }
