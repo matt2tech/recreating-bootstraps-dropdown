@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Recreating Bootstrap's Dropdown</title>
 
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
 
     <link rel="stylesheet" href="dropdown.css">
 
@@ -32,22 +32,23 @@
 
 <body>
     <div class="dropdown">
-        <button onclick='myFunction(".dropdown-menu")' class="drop-button" type="button" data-toggle="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
             Dropdown button
         </button>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a><br />
-            <a class="dropdown-item" href="#">Another action</a> <br />
-            <a class="dropdown-item" href="#">Something else here</a> 
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
         </div>
-    </div> 
+    </div>
+
     <div class="dropdown">
-        <button onclick='myFunction(".drop-menu")' class="drop-button" type="button" data-toggle="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
             Another Dropdown button
         </button>
-        <div class="drop-menu">
-            <a class="dropdown-item" href="#">Action</a><br />
-            <a class="dropdown-item" href="#">Another action</a><br />
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
         </div>
     </div>
